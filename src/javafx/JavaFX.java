@@ -21,8 +21,10 @@ public class JavaFX extends Application {
     
     @Override
     public void start(Stage primaryStage) {
+        //klawisz wyswietlajacy napis
         Button btn = new Button();
         btn.setText("Powiedz Witaj Świecie!");
+        
         btn.setOnAction(new EventHandler<ActionEvent>() {
             
             @Override
